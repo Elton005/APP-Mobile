@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Loop Avante",
+    "slug": "loop-avante",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand-icon.png",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-screen.png",
+          "imageWidth": 320,
+          "resizeMode": "contain",
+          "backgroundColor": "#10172d"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#10172d",
+        "foregroundImage": "./assets/brand-icon-foreground.png",
+        "monochromeImage": "./assets/brand-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
